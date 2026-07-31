@@ -128,9 +128,25 @@ localStorage.getItem(
 
 
 
-player.xp += xp;
+addXP(xp);
 
-player.stars += score;
+addStars(score);
+
+
+player.lessons++;
+
+
+if(score==questions.length){
+
+player.mathPerfect++;
+
+}
+
+
+savePlayer(player);
+
+
+checkBadges();
 
 
 localStorage.setItem(
