@@ -1,0 +1,30 @@
+{
+ "subject":"Math",
+
+ "lessons":[
+
+  {
+   "id":"addition001",
+
+   "title":"Introduction to Addition",
+
+   "concept":
+   "Addition means combining two or more numbers to find the total.",
+
+
+   "examples":[
+
+    "2 + 3 = 5",
+
+    "4 apples + 3 apples = 7 apples"
+
+   ],
+
+
+   "quiz":"addition001"
+
+  }
+
+ ]
+
+}
