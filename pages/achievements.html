@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet"
+href="../assets/css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>
+🏆 Achievements
+</h1>
+
+</header>
+
+
+
+<div id="profile"
+class="card">
+
+</div>
+
+
+
+<script src="../assets/js/storage.js"></script>
+
+
+<script>
+
+let p=getPlayer();
+
+
+profile.innerHTML=
+
+`
+
+<h2>
+Level ${p.level}
+</h2>
+
+<h3>
+⭐ ${p.stars}
+</h3>
+
+<h3>
+🚀 ${p.xp} XP
+</h3>
+
+<h3>
+🔥 ${p.streak} Days
+</h3>
+
+
+<h3>
+Badges:
+</h3>
+
+
+${p.badges.join("<br>")}
+
+`;
+
+</script>
+
+
+</body>
+
+</html>
