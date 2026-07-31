@@ -132,3 +132,41 @@ cursor:pointer;
 transform:translateY(-5px);
 
 }
+.reward{
+
+position:fixed;
+
+top:40%;
+
+left:40%;
+
+background:#4a90e2;
+
+color:white;
+
+padding:25px;
+
+border-radius:25px;
+
+font-size:25px;
+
+animation:pop .5s;
+
+}
+
+
+@keyframes pop{
+
+from{
+
+transform:scale(0);
+
+}
+
+to{
+
+transform:scale(1);
+
+}
+
+}
