@@ -1,0 +1,32 @@
+{
+ "grade":1,
+
+ "subjects":[
+
+  {
+   "name":"Math",
+
+   "chapters":[
+
+    {
+     "title":"Addition",
+
+     "lessons":[
+
+      {
+       "id":"add001",
+       "title":"Introduction to Addition",
+       "difficulty":"easy"
+      }
+
+     ]
+
+    }
+
+   ]
+
+  }
+
+ ]
+
+}
