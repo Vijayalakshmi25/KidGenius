@@ -104,6 +104,17 @@ ${subject}
 `;
 
 
+card.onclick=function(){
+
+if(subject=="Math"){
+
+window.location.href=
+"pages/lesson.html";
+
+}
+
+};
+
 
 subjects.appendChild(card);
 
