@@ -1,0 +1,41 @@
+{
+ "grades":[
+
+ {
+  "id":1,
+
+  "name":"Grade 1",
+
+  "subjects":[
+
+   {
+    "id":"math",
+    "name":"Mathematics",
+    "icon":"➕"
+   },
+
+   {
+    "id":"english",
+    "name":"English",
+    "icon":"📖"
+   },
+
+   {
+    "id":"science",
+    "name":"Science",
+    "icon":"🔬"
+   },
+
+   {
+    "id":"computer",
+    "name":"Computer",
+    "icon":"💻"
+   }
+
+  ]
+
+ }
+
+ ]
+
+}
